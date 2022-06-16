@@ -14,7 +14,7 @@
 								$school_year_query_row = mysqli_fetch_array($school_year_query);
 								$school_year = $school_year_query_row['school_year'];
 								?>
-								<li><a href="#"><b>My Class</b></a><span class="divider">/</span></li>
+								<li><a href="#"><b>My Session</b></a><span class="divider">/</span></li>
 								<li><a href="#">Training Year: <?php echo $school_year_query_row['school_year']; ?></a></li>
 						</ul>
 						 <!-- end breadcrumb -->
@@ -90,8 +90,8 @@
 										<thead>
 										        <tr>
 												<th></th>
-												<th>Class Name</th>
-												<th>Subject Code</th>
+												<th>Session Name</th>
+												<th>Module Code</th>
 												</tr>
 												
 										</thead>
